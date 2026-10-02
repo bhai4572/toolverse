@@ -58,8 +58,6 @@ export async function POST(req: NextRequest) {
       disclaimer:
         'Review all generated text carefully before submitting. Ensure proper attribution and compliance with your institution policy.',
     });
-        'Review all generated text carefully before submitting. Ensure proper attribution and compliance with your institution policy.',
-    });
   } catch (err: any) {
     return NextResponse.json({ error: err.message || 'Server error processing writing API.' }, { status: 500 });
   }
