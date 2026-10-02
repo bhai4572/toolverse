@@ -23,3 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 .DS_Store
 *.pem
+
+# Nested git repos (should not be tracked as submodules)
+/ponytail
