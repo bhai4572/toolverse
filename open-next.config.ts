@@ -1,6 +1,4 @@
 // @ts-nocheck
-import { defineCloudflareConfig } from '@opennextjs/cloudflare';
+import defineCloudflareConfig from '@opennextjs/cloudflare/config';
 
-export default defineCloudflareConfig({
-  dangerouslyUseUnsupportedNextVersion: true,
-});
+export default defineCloudflareConfig();
