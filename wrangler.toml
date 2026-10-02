@@ -1,0 +1,8 @@
+name = "toolverse"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".open-next/assets"
+
+[vars]
+# Public environment variables yahan add karein (secret nahi)
+# NEXT_PUBLIC_SITE_URL = "https://toolverse.pages.dev"
