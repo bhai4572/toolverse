@@ -46,6 +46,7 @@ import {
   ShieldCheck,
   Plus,
   Trash2,
+  Sparkles,
 } from 'lucide-react';
 
 export function AdvancedTools({ tool }: { tool: ToolDefinition }) {
