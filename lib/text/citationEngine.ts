@@ -5,7 +5,7 @@ export interface CitationInput {
   websiteOrPublisher: string;
   year: string;
   url?: string;
-  type: 'website' | 'book' | 'article';
+  type: 'website' | 'book' | 'article' | 'journal';
 }
 
 export function formatCitation(input: CitationInput, style: 'APA' | 'MLA' | 'Harvard' | 'IEEE' | 'BibTeX'): string {
