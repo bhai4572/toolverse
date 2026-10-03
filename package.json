@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:cloudflare": "npx @opennextjs/cloudflare@1.7.0 build",
+    "build:cloudflare": "opennextjs-cloudflare build",
     "start": "next start",
     "lint": "next lint",
     "test": "vitest run tests/"
@@ -34,6 +34,8 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "^1.7.0",
+    "wrangler": "^3.99.0",
     "@types/diff": "^5.2.3",
     "@types/dompurify": "^3.0.5",
     "@types/js-yaml": "^4.0.9",
