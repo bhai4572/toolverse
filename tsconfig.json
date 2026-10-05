@@ -11,17 +11,13 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
+    "jsx": "react-jsx",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "next/link": ["./lib/shims/next-link.tsx"],
+      "next/navigation": ["./lib/shims/next-navigation.ts"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules", "workers", "ponytail"]
+  "include": ["src", "lib", "features", "components", "app", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules", "workers", "ponytail", "dist", "backend"]
 }
